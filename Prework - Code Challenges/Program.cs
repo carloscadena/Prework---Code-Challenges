@@ -10,9 +10,11 @@ namespace Prework___Code_Challenges
             First();
             Second();
             int[] perfect = new int[3] { 1, 2, 3 };
-            int[] imperfect = new int[3] { 0, 2, -2 };
+            int[] imperfect = new int[3] { 2, 3, 4 };
             Third(perfect);
             Third(imperfect);
+            int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } };
+            Four(myArray);
 
         }
 
@@ -89,6 +91,20 @@ namespace Prework___Code_Challenges
             {
                 Console.WriteLine("NO");
             }
+
+        }
+        public static void Four(int[,] numList)
+        {
+            Console.WriteLine("My Array: { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } }");
+            int[] rows = new int[numList.GetLength(0)];
+            for (int i = 0; i < numList.GetLength(0); i++)
+            {
+                for (int j = 0; j < numList.GetLength(1); j++)
+                {
+                    rows[i] += numList[i, j];
+                }
+            }
+            Console.WriteLine($"Sum of each row: {string.Join(", ", rows)}");
 
         }
 
