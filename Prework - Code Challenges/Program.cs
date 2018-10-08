@@ -8,6 +8,12 @@ namespace Prework___Code_Challenges
         {
             Console.WriteLine("Hello World!");
             First();
+            Second();
+            int[] perfect = new int[3] { 1, 2, 3 };
+            int[] imperfect = new int[3] { 0, 2, -2 };
+            Third(perfect);
+            Third(imperfect);
+
         }
 
         public static void First()
@@ -61,6 +67,27 @@ namespace Prework___Code_Challenges
             else
             {
                 Console.WriteLine($"{year} is NOT a leap year");
+            }
+
+        }
+        public static void Third(int[] numList)
+        {
+            int added = 0;
+            int multiplied = 1;
+            Console.WriteLine("\nIs this list a perfect sequence?");
+            for (int i = 0; i < numList.Length; i++)
+            {
+                Console.Write($"{numList[i]} ");
+                added += numList[i];
+                multiplied *= numList[i];
+            }
+            if (added == multiplied)
+            {
+                Console.WriteLine("YES");
+            }
+            else
+            {
+                Console.WriteLine("NO");
             }
 
         }
