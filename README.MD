@@ -38,3 +38,35 @@ on every year that is evenly divisible by 4
 For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 2000 is.
 
 Want to know more about Leap Year? Watch this 4 minute video [HERE](https://www.youtube.com/watch?v=xX96xng7sAE)
+
+<hr />
+
+## Problem 3: Perfect Sequence
+
+#### Problem Statement
+Given a sequence. Return "Yes" if the sequence is considered a perfect sequence. Otherwise, return "No"
+
+#### Perfect Sequences
+A perfect sequence is a sequence such that all of its elements are non-negative integers and the product of all of them is equal to their sum. 
+For example: [2,2], [1,3,2] and [0,0,0,0] are perfect sequences and [4,5,6] and [0,2,-2] are not perfect sequences. Negative numbers of any kind are not valid in 
+a perfect sequence
+
+#### Input Format
+An array of integers (may not be sorted)
+
+#### Explanation
+1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
+
+<hr />
+
+## Problem 4: Sum of Rows
+
+#### Problem Statement
+Given a matrix of integers. Return the sum of each row in a single dimensional array. 
+
+#### Input Format
+a multidimensional array with the dimensions of **m x n** (m = rows, n = columns).
+
+1. duplicate integers are possible.
+2. Negative numbers are possible
+3. both **m** and **n** can vary in length
