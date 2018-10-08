@@ -9,6 +9,7 @@ namespace Prework___Code_Challenges
             Console.WriteLine("Hello World!");
             First();
         }
+
         public static void First()
         {
             int[] nums = new int[5];
@@ -39,6 +40,29 @@ namespace Prework___Code_Challenges
                 }
             }
             Console.WriteLine($"The score for this number is {newInput * counter}");
+        }
+
+        public static void Second()
+        {
+            Console.Write("Input a year and I will tell you if it's a leap year: ");
+            int year = int.Parse(Console.ReadLine());
+            if (year % 400 == 0)
+            {
+                Console.WriteLine($"{year} is a leap year");
+            }
+            else if (year % 100 == 0 && !(year % 400 == 0))
+            {
+                Console.WriteLine($"{year} is NOT a leap year");
+            }
+            else if (year % 4 == 0)
+            {
+                Console.WriteLine($"{year} is a leap year");
+            }
+            else
+            {
+                Console.WriteLine($"{year} is NOT a leap year");
+            }
+
         }
 
     }
