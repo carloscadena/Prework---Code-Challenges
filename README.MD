@@ -38,6 +38,8 @@ on every year that is evenly divisible by 4
 For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 2000 is.
 
 Want to know more about Leap Year? Watch this 4 minute video [HERE](https://www.youtube.com/watch?v=xX96xng7sAE)
+#### Results Screenshot
+![Challenge One](/screenshots/second-challenge.PNG)
 
 <hr />
 
@@ -57,6 +59,9 @@ An array of integers (may not be sorted)
 #### Explanation
 1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
 
+#### Results Screenshot
+![Challenge One](/screenshots/third-challenge.PNG)
+
 <hr />
 
 ## Problem 4: Sum of Rows
@@ -70,3 +75,6 @@ a multidimensional array with the dimensions of **m x n** (m = rows, n = columns
 1. duplicate integers are possible.
 2. Negative numbers are possible
 3. both **m** and **n** can vary in length
+
+#### Results Screenshot
+![Challenge One](/screenshots/fourth-challenge.PNG)
