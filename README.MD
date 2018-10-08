@@ -17,4 +17,4 @@ E.g for [2,2,3,5,4] if you pick 2 your score will be 4 (2 * 2) but if you pick 5
 An array of integers, and the number chosen.
 
 #### Results Screenshot
-![Challenge One](/screenshots/first-challenge.png)
+![Challenge One](/screenshots/first-challenge.PNG)
